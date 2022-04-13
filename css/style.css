@@ -1,0 +1,185 @@
+/* comentario */
+
+* {
+    margin: 10px;
+    padding: 0px;
+}
+
+* {font-family: 'Poppins', sans-serif;}
+
+body {
+    
+    min-height: 100vh;
+    font-size: 300px 200px 200px 200px 200px;
+    display: grid;
+    max-height: 50vh;
+    grid-auto-rows: 45%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 20px; ;
+    grid-template-areas: 
+    "header header header header"
+    "foto12 foto12 foto12 foto12"
+    "myv myv myv myv"
+    "parrafito1 parrafito1 fotolink fotolink"
+    "piedepagina piedepagina piedepagina piedepagina";
+    
+    
+}
+
+.body1 {
+    min-height: 100vh;
+    font-size: 300px 200px 200px 200px 200px;
+    display: grid;
+    max-height: 50vh;
+    grid-auto-rows: 45%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 20px; ;
+    grid-template-areas: 
+    "navbar1 navbar1 navbar1 navbar1"
+    "foto11 foto11 foto11 foto11"
+    "redes redes redes redes"
+    "mapa mapa mapa mapa"
+
+}
+
+.navbar1 { 
+    grid-area: navbar1;
+}
+
+.foto11 {
+    grid-area: foto11;
+}
+
+.redes {
+    grid-area: redes;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapa {
+    grid-area: mapa;
+    width: 100%;
+}
+
+
+.navbar {
+    grid-area: header;
+    display: flex
+    
+    ;
+
+}
+
+.foto12 {
+    grid-area: foto12;
+}
+
+.myv {
+    grid-area: myv;
+    width: 50%;
+    justify-content: center;
+}
+
+.parrafito1 {
+    grid-area: url;
+    width: 50%;
+    font-size: 40px;
+}
+
+.fotolink {
+    grid-area: fotolink;
+}
+
+.piedepagina {
+    grid-area: piedepagina;
+}
+
+
+h3 {
+    color: blue;
+}
+
+li a {
+    display: flex;
+    display: inline;
+    list-style-type: none; color: orange;
+    text-decoration: underline orange;
+    text-decoration: none;
+    font-size: 30px;
+    list-style-type: none;
+    text-align: right;
+    justify-content: right;
+    
+            
+}
+
+
+.nav__item {
+    display: inline;
+    
+}
+
+.titulito {color: blue;
+           text-align: center;
+           font-size: 30px;
+}
+ 
+.courier1{
+    width: 100%;
+}
+
+.parrafo1 {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    
+}
+
+.metodospago {
+    padding: 30px 30px 30px 30px;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+
+.mapita {
+    background-color: cyan;
+    width: 30%;
+}
+
+.courier2 {
+    width: 100%;
+}
+
+.fotito {
+    background-image: url("../assets/img/courier2.png");
+    
+}
+
+.header-container {
+    list-style-type: none;
+    color: white;
+    background-color: lightblue;
+    padding: 20px 0;
+    text-decoration: none;
+    
+    /* habilita modo diseño de flexbox*/
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+}
